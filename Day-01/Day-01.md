@@ -63,4 +63,16 @@ except ValueError:
 
 **The Mechanics:** Python floats use IEEE 754 double-precision (64-bit). The actual number in memory is 33.333333333333336. **F-Strings** act as a "View Layer," masking the raw precision for the user interface without altering the underlying data integrity.
 
+---
 
+# 📖 DEEP DIVE: Micro-Challenge: The Modulo Architect
+
+**Goal:** Input a raw number of seconds (e.g., 3665). Use Integer Division `//` and Modulo `%` to calculate exactly how many **Hours, Minutes, and Seconds** this represents.
+
+### The Mechanics:
+
+* **Hours:** `total // 3600` (Discards the remainder).
+* **Remaining Seconds:** `total % 3600` (Keeps *only* the remainder).
+
+---
+This is foundational for cyclic algorithms (cryptography, hash tables, and time series processing).
