@@ -3,7 +3,7 @@
 ### 📖 DEEP DIVE: Theory: Hash Tables
 
 A Dictionary is a Key-Value store. It is optimized for **O(1) Lookup**.
-When you search a List, Python scans left-to-right ($O(N)$). When you search a Dictionary, Python uses a "Hash Function" to calculate exactly where the data is in memory. It is instant, even with 1 million items.
+When you search a List, Python scans left-to-right (O(N)). When you search a Dictionary, Python uses a "Hash Function" to calculate exactly where the data is in memory. It is instant, even with 1 million items.
 
 ```python
 user = {"id": 1, "name": "Admin"}
@@ -25,8 +25,8 @@ for key, val in user.items():
 
 **The Mechanics:**
 
-  * **List Search ($O(N)$):** Python must scan item 1, item 2, item 3... until the end.
-  * **Dict/Set Search ($O(1)$):** Python runs `hash(-1)`, gets a memory address (e.g., 0x99), and looks *only* at that spot. It is instant.
+  * **List Search (O(N)):** Python must scan item 1, item 2, item 3... until the end.
+  * **Dict/Set Search (O(1)):** Python runs `hash(-1)`, gets a memory address (e.g., 0x99), and looks *only* at that spot. It is instant.
 
 ---
 
