@@ -22,7 +22,7 @@ while True:
 
 -----
 
-### 💻 DEEP DIVE: Micro-Challenge: The Infinite Guardian
+### 📖 DEEP DIVE: Micro-Challenge: The Infinite Guardian
 
 **Goal:** Write a script that asks the user for a password repeatedly. It must run forever until the user types "stop".
 
@@ -57,3 +57,4 @@ This is the foundational logic for complex algorithms like Neural Network traini
 
 **Goal:** Create a string `word = "DATA"`. Write a loop that prints every letter on a new line.
 **The Mechanics:** This demonstrates the **Iterator Protocol**. Python strings are "Iterables". When you write `for char in word`, Python secretly calls `iter(word)`. It then calls `next()` repeatedly to fetch 'D', then 'A', then 'T', then 'A', until the string raises a `StopIteration` signal.
+
