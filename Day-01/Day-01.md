@@ -27,7 +27,7 @@ try:
 except ValueError:
 
     print("Error: Invalid Number")
-
+```
 
 ## 📖 DEEP DIVE: Micro-Challenge: The Identity Swap
 
@@ -62,4 +62,5 @@ except ValueError:
 **Constraint:** Print the result formatted strictly to **3 decimal places** with a dollar sign (e.g., $33.333).
 
 **The Mechanics:** Python floats use IEEE 754 double-precision (64-bit). The actual number in memory is 33.333333333333336. **F-Strings** act as a "View Layer," masking the raw precision for the user interface without altering the underlying data integrity.
+
 
