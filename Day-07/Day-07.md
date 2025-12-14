@@ -28,19 +28,19 @@ while True:
 
 ---
 
-# 📖 DEEP DIVE: Micro-Challenge: The Math Safety Net
+## 📖 DEEP DIVE: Micro-Challenge: The Math Safety Net
 
 > **Goal:** create a variable `x = 0`. Try to print `100 / x`. Catch the specific error that occurs.
 >
 > **The Mechanics:** Division by zero is mathematically undefined. At the CPU level, the ALU (Arithmetic Logic Unit) throws a hardware interrupt. Python wraps this into a `ZeroDivisionError` object. Catching this allows your data pipeline to say "Skipping bad row" instead of halting a 10-hour process.
 
-# 📖 DEEP DIVE: Micro-Challenge: The Cleanup Crew
+## 📖 DEEP DIVE: Micro-Challenge: The Cleanup Crew
 
 > **Goal:** Write a `try/except` block that divides two numbers. Add a `finally` block that prints "Execution Complete" regardless of whether the division succeeded or failed.
 >
 > **The Mechanics:** The `finally` block is guaranteed to run. Even if the program crashes or returns early in the `try`, Python ensures the `finally` code executes before leaving the scope. This is critical for **Resource Management** (closing files, database connections, or network sockets) to prevent memory leaks.
 
-# 📖 DEEP DIVE: Micro-Challenge: The Custom Signal
+## 📖 DEEP DIVE: Micro-Challenge: The Custom Signal
 
 > **Goal:** Ask the user for a number. If the number is negative, manually trigger an error using `raise ValueError("No negatives")`.
 >
