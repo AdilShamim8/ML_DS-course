@@ -18,7 +18,7 @@ test_values = [
 ]
 
 print("\n Truthiness Table:")
-print("-" * 35)
 for val in test_values: 
     status = "Truthy" if val else "Falsy"
+
     print(f"{str(val):15} → {status}")
