@@ -35,21 +35,21 @@
 
 ---
 
-### 📖 DEEP DIVE: 8.6 Micro-Challenge: The Length Trick ($O(1)$)
+### 📖 DEEP DIVE: 8.6 Micro-Challenge: The Length Trick (O(1))
 
 **Goal:** Call `len()` on a list of 1 billion items.  
 **Deep Dive:** You might expect Python to count items one by one. It doesn't. The C-structure of a Python list maintains a metadata counter `ob_size`. `len()` simply reads this cached integer. It is instant.
 
 ---
 
-### 📖 DEEP DIVE: 8.7 Micro-Challenge: The Quadratic Nested Loop ($O(N^2)$)
+### 📖 DEEP DIVE: 8.7 Micro-Challenge: The Quadratic Nested Loop (O(N^2))
 
 **Goal:** Find duplicates between two lists using nested `for` loops.  
 **Deep Dive:** For every item in List A, you scan all items in List B. $10,000 \times 10,000 = 100,000,000$ operations. This is **the most common cause** of server timeouts.
 
 ---
 
-### 📖 DEEP DIVE: 8.8 Micro-Challenge: The Sorting Cost ($O(N \log N)$)
+### 📖 DEEP DIVE: 8.8 Micro-Challenge: The Sorting Cost $O(N \log N)$
 
 **Goal:** Sort a random list.  
 **Deep Dive:** Python uses **Timsort** (a hybrid of Merge Sort and Insertion Sort). It is faster than $O(N^2)$ but slower than $O(N)$. Avoid sorting inside loops!
@@ -66,4 +66,5 @@
 ### 📖 DEEP DIVE: 8.10 Micro-Challenge: The Slice Copy ($O(k)$)
 
 **Goal:** Slice a massive list `data[0:5000]`.  
+
 **Deep Dive:** Slicing is not free. It allocates new memory and copies the data references. Slicing a huge chunk takes time proportional to the slice size ($k$).
