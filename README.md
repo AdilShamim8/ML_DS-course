@@ -66,5 +66,4 @@ Accountability.  When you commit publicly, you can't hide.  Plus, maybe this hel
 *Started:  December 13, 2025*  
 *Target End: April 2026*
 
-Let's see where this goes.
-
+`Let's see where this goes.`
