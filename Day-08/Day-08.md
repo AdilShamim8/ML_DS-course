@@ -28,7 +28,7 @@
 
 ---
 
-### 📖 DEEP DIVE: 8.5 Micro-Challenge: The String Builder ($O(N^2)$)
+### 📖 DEEP DIVE: 8.5 Micro-Challenge: The String Builder $O(N^2)$
 
 **Goal:** Loop 10,000 times and add a character to a string using `s += "a"`.  
 **Deep Dive:** Strings are **Immutable**. Every time you do `+=`, Python destroys the old string and creates a **brand new** larger one in a new memory address. *Fix:* Use `"".join(list_of_chars)`.
@@ -42,7 +42,7 @@
 
 ---
 
-### 📖 DEEP DIVE: 8.7 Micro-Challenge: The Quadratic Nested Loop (O(N^2))
+### 📖 DEEP DIVE: 8.7 Micro-Challenge: The Quadratic Nested Loop $O(N^2)$
 
 **Goal:** Find duplicates between two lists using nested `for` loops.  
 **Deep Dive:** For every item in List A, you scan all items in List B. $10,000 \times 10,000 = 100,000,000$ operations. This is **the most common cause** of server timeouts.
@@ -56,15 +56,16 @@
 
 ---
 
-### 📖 DEEP DIVE: 8.9 Micro-Challenge: The Dictionary Creator ($O(N)$)
+### 📖 DEEP DIVE: 8.9 Micro-Challenge: The Dictionary Creator $O(N)$
 
 **Goal:** Measure the time to create a dict from a list vs searching it.  
 **Deep Dive:** Searching is $O(1)$, but **building** the dictionary takes $O(N)$ because Python must calculate the hash for every single item and allocate memory buckets.
 
 ---
 
-### 📖 DEEP DIVE: 8.10 Micro-Challenge: The Slice Copy ($O(k)$)
+### 📖 DEEP DIVE: 8.10 Micro-Challenge: The Slice Copy $O(k)$
 
 **Goal:** Slice a massive list `data[0:5000]`.  
 
 **Deep Dive:** Slicing is not free. It allocates new memory and copies the data references. Slicing a huge chunk takes time proportional to the slice size ($k$).
+
