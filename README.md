@@ -1,4 +1,4 @@
-# 120-Day Job Crack Challenge
+# `120-Day Job Crack Challenge`
 
 **From Zero to Job-Ready in 4 Months**
 
