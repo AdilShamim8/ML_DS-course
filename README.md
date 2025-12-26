@@ -1,4 +1,4 @@
-# `120-Day Job Crack Challenge`
+# `120-Day Job Crack Challenge.`
 
 **From Zero to Job-Ready in 4 Months**
 
@@ -34,8 +34,8 @@ This is a structured 4-month intensive program focused on:
 
 ```
 ML_DS-course/
-├── Day-01/          # Daily progress folders
-├── Day-02/
+├── Week-01/          # Weekly progress folders
+├── Week-02/
 ├── ... 
 ├── projects/        # Major projects and MVPs
 ├── notes/           # Concept notes and summaries
