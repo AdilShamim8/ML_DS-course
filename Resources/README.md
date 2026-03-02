@@ -1,8 +1,6 @@
 > # Preparing for ML/DS Interviews—Tips, Resources & Complete Roadmap
 
 
-Hi Kaggle Community,
-
 I’m currently preparing for ML/DS interviews and decided to create a **complete, practical roadmap** based on how experienced ML engineers actually prepare for real-world roles — not just interviews.
 
 
@@ -226,4 +224,5 @@ I'd love to hear from the community:
 
 
 ### `Data Science Cheat Sheets:` https://www.kaggle.com/datasets/timoboz/data-science-cheat-sheets/data
+
 
