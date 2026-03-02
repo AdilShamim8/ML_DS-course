@@ -21,26 +21,6 @@ This is a structured 4-month intensive program focused on:
 - Building a real-world MVP project from scratch
 - Preparing for actual job interviews and applications
 
-## The Timeline
-
-| Month | Focus Area |
-|-------|-----------|
-| **Month 1** | Python fundamentals → Intermediate Python → OOP |
-| **Month 2** | Data Structures + NumPy/Pandas + Case Studies |
-| **Month 3** | ML/DL frameworks + Math foundations + NLP basics |
-| **Month 4** | MVP project + CV prep + GitHub polish + Job applications |
-
-## Repo Structure
-
-```
-ML_DS-course/
-├── Week-01/          # Weekly progress folders
-├── Week-02/
-├── ... 
-├── projects/        # Major projects and MVPs
-├── notes/           # Concept notes and summaries
-└── resources/       # Useful links, books, references
-```
 
 ## Daily Commitment
 
@@ -63,7 +43,5 @@ Accountability.  When you commit publicly, you can't hide.  Plus, maybe this hel
 
 ---
 
-*Started:  December 13, 2025*  
-*Target End: April 2026*
 
 `Let's see where this goes.`
